@@ -16,6 +16,13 @@ So, the contrastive learning functionality should be treated experimentally!
 - [partition-comparison](https://github.com/thouis/partition-comparison)
 - [cloud-volume](https://github.com/seung-lab/cloud-volume)
 
+## Get the data
+When working with SNEMI, please cite the following original publication
+Kasthuri, Narayanan, et al. "Saturated reconstruction of a volume of neocortex." Cell 162.3 (2015): 648-661. https://doi.org/10.1016/j.cell.2015.06.054
+
+The training, validation and test split used in this work can be downloaded in HDF5 format from
+[TU Dresden's cloud storage](https://cloudstore.zih.tu-dresden.de/index.php/s/DeWzTtfK7bQWea5)
+
 ## Training
 The library offers functions for single- and multi GPU training for both supervised metric learning as well as momentum contrastive learning.
 
